@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src='https://vjs.zencdn.net/7.5.5/video.js' rel='stylesheet'></script>
+  <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+  <link rel=stylesheet href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+  <title></title>
+</head>
+
+<body>
+
+  <a href="#" id="modal-wrapper">
+  </a>
+  <div id="modal">GEKEKEN!</div>
+
+
+  <header>
+    <img id="logo" src="img/logo.png">
+    <nav>
+      <ul>
+        <li><a href="#">OVER ONS</a></li>
+        <li><a href="#">LESMATERIAAL</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <div class="clear"></div>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+
+  </header>
+
+  <main>
+    <div class="banner">
+
+      <div id="banner-text-wrapper">
+        <h2>Van beginner naar expert <br>het Lesmateriaal brengt je verder</h2>
+        <p id="banner-text">
+          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada
+          magna
+          mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at
+          eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="playlist-wrapper">
+      <h5 id="playlist-title">Playlist</h5>
+      <div id="accordion">
+        <h3>
+          <div class="accordion-arrow"></div>
+          <p class="accordion-title">Algemene introductie</p>
+          <div class="accordion-check"><img src="img/done icon.png" class="accordion-check-img"></div>
+          <a href="#" id="accordion-intro">intro</a>
+          <div class="clear"></div>
+        </h3>
+        <div class="accordion-content">
+          <video id="player" class="video-js" controls>
+            <source src="video/tutorial-1.mp4" type=video/mp4> </video> <div
+              class="player-button-wrapper">
+            <a href="#" class="rewind player-btn"><img src="img/rewind icon.png" class="player-button-small"></a>
+            <a href="#" class="play player-btn"><img src="img/play.png" class="play-icon"></a>
+            <a href="#" class="check player-btn"><img src="img/done icon.png" class="player-button-small"></a>
+            <div class="clear"></div>
+        </div>
+      </div>
+      <h3>
+        <div class="accordion-arrow"></div>
+        <p class="accordion-title">Workshop 1: Kleuren met code</p>
+        <div class="accordion-check"><img src="img/done icon.png" class="accordion-check-img"></div>
+        <a href="#" class="accordion-workshop">WORKSHOP</a>
+        <a href="#" class="accordion-download"><img src="img/download.png" class="donwload">DOWNLOADS</a>
+        <div class="clear"></div>
+      </h3>
+      <div class="accordion-content">
+        <video id="player" class="video-js" controls>
+          <source src="video/tutorial-1.mp4" type=video/mp4> </video> <div
+            class="player-button-wrapper">
+          <a href="#" class="rewind player-btn"><img src="img/rewind icon.png" class="player-button-small"></a>
+          <a href="#" class="play player-btn"><img src="img/play.png" class="play-icon"></a>
+          <a href="#" class="check player-btn"><img src="img/done icon.png" class="player-button-small"></a>
+          <div class="clear"></div>
+      </div>
+    </div>
+    <h3>
+      <div class="accordion-arrow"></div>
+      <p class="accordion-title">Workshop 2: Vormen maken</p>
+      <div class="accordion-check"><img src="img/done icon.png" class="accordion-check-img"></div>
+      <a href="#" class="accordion-workshop">WORKSHOP</a>
+      <div class="clear"></div>
+    </h3>
+    <div class="accordion-content">
+      <video id="player" class="video-js" controls>
+        <source src="video/tutorial-2.MP4" type=video/mp4>
+      </video> 
+      <div class="player-button-wrapper">
+        <a href="#" class="rewind player-btn"><img src="img/rewind icon.png" class="player-button-small"></a>
+        <a href="#" class="play player-btn"><img src="img/play.png" class="play-icon"></a>
+        <a href="#" class="check player-btn"><img src="img/done icon.png" class="player-button-small"></a>
+        <div class="clear"></div>
+    </div>
+    </div>
+    <h3>
+      <div class="accordion-arrow"></div>
+      <p class="accordion-title">Workshop 3: Beweging</p>
+      <div class="accordion-check"><img src="img/done icon.png" class="accordion-check-img"></div>
+      <a href="#" class="accordion-workshop">WORKSHOP</a>
+      <a href="#" class="accordion-download"><img src="img/download.png" class="donwload">DOWNLOADS</a>
+      <div class="clear"></div>
+    </h3>
+    <div class="accordion-content">
+      <video id="player" class="video-js" controls>
+        <source src="video/tutorial-2.MP4" type=video/mp4> </video> <div
+          class="player-button-wrapper">
+        <a href="#" class="rewind player-btn"><img src="img/rewind icon.png" class="player-button-small"></a>
+        <a href="#" class="play player-btn"><img src="img/play.png" class="play-icon"></a>
+        <a href="#" class="check player-btn"><img src="img/done icon.png" class="player-button-small"></a>
+        <div class="clear"></div>
+    </div>
+    </div>
+    <h3>
+      <div class="accordion-arrow"></div>
+      <p class="accordion-title">Workshop 4: Variabelen gebruiken</p>
+      <div class="accordion-check"><img src="img/done icon.png" class="accordion-check-img"></div>
+      <a href="#" class="accordion-workshop">WORKSHOP</a>
+      <div class="clear"></div>
+    </h3>
+    <div class="accordion-content">
+      <video id="player" class="video-js" controls>
+        <source src="video/tutorial-1.mp4" type=video/mp4> </video> <div
+          class="player-button-wrapper">
+        <a href="#" class="rewind player-btn"><img src="img/rewind icon.png" class="player-button-small"></a>
+        <a href="#" class="play player-btn"><img src="img/play.png" class="play-icon"></a>
+        <a href="#" class="check player-btn"><img src="img/done icon.png" class="player-button-small"></a>
+        <div class="clear"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="support-wrapper">
+      <div class="support-text-wrapper">
+        <h5>Support</h5>
+        <p class="support-text">Kom je er niet uit? <br>Wij helpen je graag verder</p>
+      </div>
+      <div class="support-profile-wrapper">
+        <div class="profile">
+          <img class="profile-picture" src="img/kal-visuals-592091-unsplash.jpg">
+          <div class="profile-text-wrapper">
+            <h4>Klaartje Klaassen</h4>
+            <p class="profile-title">Hoofd contactpersoon</p>
+            <a class="email-button" href="#">EMAIL</a>
+          </div>
+        </div>
+        <div class="profile">
+          <img class="profile-picture" src="img/giorgio-encinas-781653-unsplash.jpg">
+          <div class="profile-text-wrapper">
+            <h4>Klaartje Klaassen</h4>
+            <p class="profile-title">Hoofd contactpersoon</p>
+            <a class="email-button" href="#">EMAIL</a>
+          </div>
+        </div>
+        <div class="profile">
+          <img class="profile-picture" src="img/norman-toth-177973-unsplash.jpg">
+          <div class="profile-text-wrapper">
+            <h4>Klaartje Klaassen</h4>
+            <p class="profile-title">Hoofd contactpersoon</p>
+            <a class="email-button" href="#">EMAIL</a>
+          </div>
+        </div>
+        <div class="profile">
+          <img class="profile-picture" src="img/alina-kovalchuk-1143928-unsplash@2x.jpg">
+          <div class="profile-text-wrapper">
+            <h4>Klaartje Klaassen</h4>
+            <p class="profile-title">Hoofd contactpersoon</p>
+            <a class="email-button" href="#">EMAIL</a>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="footer-banner">
+    <div class="footer-banner-text-wrapper">
+      <h6>Klaar voor de <br>volgende uitdaging?</h6>
+      <p id="footer-banner-text">In ons expertprogramma vind je lessen voor gevorderden</p>
+      <a id="footer-banner-button" href="#">KOM MAAR OP</a>
+    </div>
+  </div>
+  <footer>
+    <div class="theme-wrapper">
+      <p id="footer-switch-text">SWITCH THEME</p>
+      <a href="#" id="footer-switch">
+        <img class="footer-switch-img" src="img/sun.png">
+        <img class="footer-switch-img" src="img/moon.png">
+        <div class="clear"></div>
+      </a>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </footer>
+
+
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/sketch.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+</body>
+
+</html>
